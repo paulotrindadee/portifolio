@@ -2,19 +2,6 @@ let btnMenu = document.getElementById('btn-menu')
 let menu = document.getElementById('menu-mobile')
 let overlay = document.getElementById('overlay-menu')
 
-window.addEventListener('scroll', onScroll)
-
-onScroll()
-function onScroll() {
-  showNavOnScroll()
-  showBackToTopButtonOnScroll()
-
-  activateMenuAtCurrentSection(home)
-  activateMenuAtCurrentSection(services)
-  activateMenuAtCurrentSection(about)
-  activateMenuAtCurrentSection(contact)
-}
-
 btnMenu.addEventListener('click', () => {
   menu.classList.add('abrir-menu')
 })
