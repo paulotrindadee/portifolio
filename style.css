@@ -460,8 +460,8 @@ footer .line-footer p a {
   }
 
   .img-port {
-    width: 100%;
-    max-width: 360px;
+    width: auto;
+    max-width: auto;
     margin: 0 auto;
   }
 
